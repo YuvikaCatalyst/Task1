@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="simple html webpage" />
+    <meta name="keywords" content=" html,hungama" />
+    <!--<meta http-equiv = "refresh" content = "5; url = http://www.tutorialspoint.com" />-->
+    <link rel="icon" href="media/logo.png" type="image/x-icon">
+    <title>Task1</title>
+    <style>
+      header {
+        border: 2px double purple;
+        border-radius: 10px;
+      }
+      .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .container {
+        width: 97%;
+        margin: 20px;
+      }
+
+      #logo {
+        height: 5%;
+        width: 5%;
+        margin-left: 10px;
+      }
+      .navbar {
+        display: flex;
+        margin-top: 10px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: black;
+        margin: 25px;
+        color: purple;
+        font-size: medium;
+      }
+      main {
+        background-color: #f4d8e2;
+      }
+      button:hover{
+        cursor: pointer;
+        background-color: antiquewhite;
+      }
+      .image {
+        float: left;
+        margin-right: 20px;
+        border-radius: 10px;
+        border: 2px solid purple;
+      }
+
+      .end {
+        height: "20px";
+        width: "100%";
+        display: flex;
+      }
+      .icons {
+        padding-left: 85%;
+      }
+      i {
+      
+        margin: 5px;
+      }
+      ul {
+        display: flex;
+        list-style: none;
+      }
+      .icons a:hover {
+        color: rgb(245, 148, 21);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container head">
+        <img src="media/logo.png" alt="image" id="logo" />
+
+        <nav class="navbar">
+            <ul>
+          <li><a href="#">Home</a></li>
+         <li> <a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1 style="text-align: center; color: purple">HUNGAMA</h1>
+        <p>
+          Hungama TV is a popular Indian children's television channel, known
+          for its entertaining and vibrant content. Launched in 2004, it has
+          become a go-to destination for kids, offering a diverse range of
+          animated shows, cartoons, and live-action series. The channel caters
+          to a broad age group, providing age-appropriate content for children
+          and pre-teens. With a mix of humor, adventure, and educational
+          elements, Hungama TV engages young audiences across India. The channel
+          features iconic characters, fostering creativity and imagination. Its
+          commitment to quality programming and a family-friendly environment
+          has contributed to its success, making it a beloved source of
+          entertainment for kids and parents alike.
+        </p>
+        <a href="www.google.com"><button >click me</button></a>
+        <br /><br />
+        <img src="media/characters.jpg" class="image" alt="characters" />
+        <h3 style="color: purple">CHARACTERS</h3>
+        <p>
+          Hungama TV offers an array of enchanting cartoons, featuring memorable
+          characters that have left an indelible mark on viewers. "Shin Chan"
+          chronicles the amusing escapades of the mischievous yet lovable Shin
+          Chan, while "Doraemon" unveils the whimsical world of a robotic cat
+          aiding young Nobita with futuristic gadgets. "Kiteretsu Daihyakka"
+          showcases the ingenious Kiteretsu's inventive endeavors, and "Pokemon"
+          embarks on thrilling adventures with Ash Ketchum and his Pokemon
+          companions. These cartoons on Hungama TV blend humor, creativity, and
+          life lessons, captivating audiences of all ages and creating enduring
+          connections with the characters and their captivating narratives.
+        </p>
+        <br />
+        <video
+          width="100%"
+          height="240"
+          autoplay
+          loop
+          muted
+          playsinline
+          style="background-color: #7c4255"
+        >
+          <source src="media/video1.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </main>
+    <footer>
+      <div class="container end">
+        <img src="media/logo.png" height="100%" width="40px" alt="logo" />
+        <div class="icons">
+          <ul>
+            <li>
+              <a href="https://in.linkedin.com/" target="_blank"
+                ><i class="fa fa-linkedin" style="font-size: 20px"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://in.twitter.com/" target="_blank"
+                ><i class="fa fa-twitter" style="font-size: 20px"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://in.facebook.com/" target="_blank"
+                ><i class="fa fa-facebook" style="font-size: 20px"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://in.instagram.com/" target="_blank"
+                ><i class="fa fa-instagram" style="font-size: 20px"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
